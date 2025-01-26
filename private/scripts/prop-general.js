@@ -53,6 +53,7 @@ window.qBittorrent.PropGeneral = (function() {
         $('seeds').set('html', '');
         $('peers').set('html', '');
         $('share_ratio').set('html', '');
+        $('popularity').set('html', '');
         $('reannounce').set('html', '');
         $('last_seen').set('html', '');
         $('total_size').set('html', '');
@@ -151,6 +152,8 @@ window.qBittorrent.PropGeneral = (function() {
                     $('peers').set('html', temp);
 
                     $('share_ratio').set('html', data.share_ratio.toFixed(2));
+
+                    $('popularity').set('html', data.popularity.toFixed(2));
 
                     $('reannounce').set('html', window.qBittorrent.Misc.friendlyDuration(data.reannounce));
 

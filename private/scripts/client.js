@@ -1044,7 +1044,7 @@ window.addEvent('load', function() {
         },
         contentURL: 'views/properties.html',
         require: {
-            css: ['css/Tabs.css', 'css/dynamicTable.css'],
+            //css: ['css/Tabs.css', 'css/dynamicTable.css'], // Commented to prevent this to override custom CSS.
             js: ['scripts/prop-general.js', 'scripts/prop-trackers.js', 'scripts/prop-peers.js', 'scripts/prop-webseeds.js', 'scripts/prop-files.js'],
         },
         tabsURL: 'views/propertiesToolbar.html',

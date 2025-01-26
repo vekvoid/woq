@@ -155,7 +155,7 @@ const initializeWindows = function() {
             toolbar: true,
             contentURL: 'views/preferences.html',
             require: {
-                css: ['css/Tabs.css']
+                //css: ['css/Tabs.css'] // Commented to prevent this to override custom CSS.
             },
             toolbarURL: 'views/preferencesToolbar.html',
             maximizable: false,
@@ -995,7 +995,7 @@ const initializeWindows = function() {
             loadMethod: 'xhr',
             contentURL: 'views/about.html',
             require: {
-                css: ['css/Tabs.css']
+                //css: ['css/Tabs.css'] // Commented to prevent this to override custom CSS.
             },
             toolbar: true,
             toolbarURL: 'views/aboutToolbar.html',
